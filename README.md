@@ -1,4 +1,4 @@
-# Ember-deprecated
+# Ember-deprecated ![https://api.travis-ci.org/TrueNorth/ember-deprecated.svg](https://api.travis-ci.org/TrueNorth/ember-deprecated.svg)
 
 Ember-deprecated makes it easy to warn developers about code that they shouldn't be using anymore
 
