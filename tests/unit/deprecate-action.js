@@ -1,0 +1,1 @@
+module('deprecate-action');
