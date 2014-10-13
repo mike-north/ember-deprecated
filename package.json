@@ -5,12 +5,17 @@
     "doc": "doc",
     "test": "tests"
   },
+  "author": {
+    "name": "Mike North",
+    "email": "michael.l.north@gmail.com",
+    "url": "https://twitter.com/michaellnorth"
+  },
   "scripts": {
     "start": "ember server",
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": "https://github.com/TrueNorth/ember-deprecated",
   "engines": {
     "node": ">= 0.10.0"
   },
