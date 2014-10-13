@@ -53,7 +53,7 @@ export default Ember.ObjectController.extend({
   }
 });
 ````
-You can hust wrap the actions you wish to deprecate with `deprecateAction`
+You can just wrap the actions you wish to deprecate with `deprecateAction`
 ````js
 import deprecateAction from 'ember-deprecated/deprecate-action';
 
