@@ -4,9 +4,7 @@ Ember-deprecated makes it easy to warn developers about code that they shouldn't
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install --save-dev ember-deprecated`
 
 ## Deprecating Properties
 
