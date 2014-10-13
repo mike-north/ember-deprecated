@@ -1,6 +1,6 @@
 # Ember-deprecated
 
-Ember-deprecated makes it easy to warn developers
+Ember-deprecated makes it easy to warn developers about code that they shouldn't be using anymore
 
 ## Installation
 
