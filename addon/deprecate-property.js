@@ -7,11 +7,10 @@ export default function EmberDeprecate_deprecateProperty () {
   var propertyArguments = getDependentPropertyKeys(Array.prototype.slice.call(arguments));
   var originalProp = arguments[0];
   propertyArguments.push(function (key) {
-    var self = this;
     Ember.runInDebug(
       function () {
-        printConsoleMessage('Deprecated property: %@ - %@'.fmt(self.constructor.toString(), key));
-      }
+        printConsoleMessage(`Deprecated property: ${this.constructor.toString()} - ${key}`);
+      }.bind(this)
     );
     return getVal.call(this, originalProp);
   });

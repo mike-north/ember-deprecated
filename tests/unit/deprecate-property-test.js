@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import deprecateProperty from 'ember-deprecated/deprecate-property';
-
+import { module, test } from 'qunit';
 
 var MyType = Ember.Object.extend({
   a: 123,
@@ -21,15 +21,15 @@ module('deprecate-property', {
   }
 });
 
-test('literal property', function () {
-  equal(myObj.get('b'), 14);
+test('literal property', function (assert) {
+  assert.equal(myObj.get('b'), 14);
 });
 
-test('CPM - alias', function () {
-  equal(myObj.get('c'), 123);
+test('CPM - alias', function (assert) {
+  assert.equal(myObj.get('c'), 123);
 });
 
-test('CPM - gt', function () {
-  equal(myObj.get('d'), false);
-  equal(myObj.get('e'), true);
+test('CPM - gt', function (assert) {
+  assert.equal(myObj.get('d'), false);
+  assert.equal(myObj.get('e'), true);
 });
