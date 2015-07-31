@@ -1,7 +1,7 @@
 {
   "name": "ember-deprecated",
   "description": "Deprecation helpers for Ember.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -12,8 +12,8 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/TrueNorth/ember-deprecated.git",
-  "homepage": "https://github.com/TrueNorth/ember-deprecated",
+  "repository": "https://github.com/mike-north/ember-deprecated.git",
+  "homepage": "https://github.com/mike-north/ember-deprecated",
   "engines": {
     "node": ">= 0.10.0"
   },
