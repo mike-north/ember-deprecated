@@ -1,8 +1,8 @@
 # Ember-deprecated
 
-[![Build Status](https://travis-ci.org/truenorth/ember-deprecated.svg?branch=master)](https://travis-ci.org/truenorth/ember-deprecated)
-[![Dependency Status](https://david-dm.org/truenorth/ember-deprecated.svg)](https://david-dm.org/truenorth/ember-deprecated)
-[![devDependency Status](https://david-dm.org/truenorth/ember-deprecated/dev-status.svg)](https://david-dm.org/truenorth/ember-deprecated#info=devDependencies)
+[![Build Status](https://travis-ci.org/mike-north/ember-deprecated.svg?branch=master)](https://travis-ci.org/mike-north/ember-deprecated)
+[![Dependency Status](https://david-dm.org/mike-north/ember-deprecated.svg)](https://david-dm.org/mike-north/ember-deprecated)
+[![devDependency Status](https://david-dm.org/mike-north/ember-deprecated/dev-status.svg)](https://david-dm.org/mike-north/ember-deprecated#info=devDependencies)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-deprecated.svg)](http://emberobserver.com/addons/ember-deprecated)
 
 Ember-deprecated makes it easy to warn developers about code that they shouldn't be using anymore
