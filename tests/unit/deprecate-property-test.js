@@ -2,34 +2,36 @@ import Ember from 'ember';
 import deprecateProperty from 'ember-deprecated/deprecate-property';
 import { module, test } from 'qunit';
 
-var MyType = Ember.Object.extend({
+const { Object: Obj, computed } = Ember;
+
+const MyType = Obj.extend({
   a: 123,
   b: deprecateProperty(14),
-  c: deprecateProperty(Ember.computed.alias('a')),
-  d: deprecateProperty(Ember.computed.gt('a', 200)),
-  e: deprecateProperty(Ember.computed.gt('a', 100))
+  c: deprecateProperty(computed.alias('a')),
+  d: deprecateProperty(computed.gt('a', 200)),
+  e: deprecateProperty(computed.gt('a', 100))
 });
 
-var myObj;
+let myObj;
 
 module('deprecate-property', {
-  setup: function () {
+  beforeEach() {
     myObj = MyType.create();
   },
-  teardown: function () {
+  afterEach() {
 
   }
 });
 
-test('literal property', function (assert) {
+test('literal property', function(assert) {
   assert.equal(myObj.get('b'), 14);
 });
 
-test('CPM - alias', function (assert) {
+test('CPM - alias', function(assert) {
   assert.equal(myObj.get('c'), 123);
 });
 
-test('CPM - gt', function (assert) {
+test('CPM - gt', function(assert) {
   assert.equal(myObj.get('d'), false);
   assert.equal(myObj.get('e'), true);
 });

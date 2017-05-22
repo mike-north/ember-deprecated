@@ -1,4 +1,7 @@
+/* eslint no-console: "off" */
 import Ember from 'ember';
+
+const { Logger } = Ember;
 
 export function printConsoleMessage(msg) {
   if (console.trace) {
@@ -6,13 +9,11 @@ export function printConsoleMessage(msg) {
       console.groupCollapsed(msg);
       console.trace();
       console.groupEnd();
-    }
-    else {
-      Ember.Logger.warn(msg);
+    } else {
+      Logger.warn(msg);
       console.trace();
     }
-  }
-  else {
-    Ember.Logger.warn(msg);
+  } else {
+    Logger.warn(msg);
   }
 }
