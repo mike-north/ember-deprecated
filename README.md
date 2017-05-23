@@ -1,5 +1,7 @@
 # Ember-deprecated
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/ember-deprecated.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/mike-north/ember-deprecated.svg?branch=master)](https://travis-ci.org/mike-north/ember-deprecated)
 [![Dependency Status](https://david-dm.org/mike-north/ember-deprecated.svg)](https://david-dm.org/mike-north/ember-deprecated)
 [![devDependency Status](https://david-dm.org/mike-north/ember-deprecated/dev-status.svg)](https://david-dm.org/mike-north/ember-deprecated#info=devDependencies)
